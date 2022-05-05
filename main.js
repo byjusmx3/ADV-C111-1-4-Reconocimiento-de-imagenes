@@ -20,8 +20,8 @@ function take_snapshot()
   console.log('ml5 version:', ml5.version);
   
   // Inicializar el método de clasificación de imágenes con MobileNet
-//clasificador = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/8aKpS4kd3/model.json',modelLoaded);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/8aKpS4kd3/model.json',modelLoaded);
+//clasificador = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/X_KQVmanw//model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/X_KQVmanw//model.json',modelLoaded);
 
   // Cuando el modelo está cargado.
   function modelLoaded() {
